@@ -33,7 +33,7 @@ function getName() {
   //Code Here
 function welcome() {
   getName();
-return "Welcome " + theName;
+  alert("Welcome " + theName);
 }
 
 //////////////////PROBLEM 4////////////////////
