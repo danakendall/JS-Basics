@@ -60,15 +60,17 @@ function getName() {
 //Create a function called myName that returns your name
 
   //Code Here
-
+function myName() {
+  return "Dana";
+}
 
 
 //Now save the function definition of myName into a new variable called newMyName
-
+var newMyName = myName();
   //Code Here
 
 //Now alert the result of invoking newMyName
-
+console.log(newMyName());
 
 
 //////////////////PROBLEM 7////////////////////
