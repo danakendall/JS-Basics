@@ -5,8 +5,11 @@ var name = 'Tyler';
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
   //Code Here
-function isTyler() {
-  
+function isTyler(name) {
+  if (name==="Tyler") {
+    return true;
+  }
+  else return false;
 }
 //////////////////PROBLEM 2////////////////////
 
@@ -15,7 +18,9 @@ function isTyler() {
 
 
   //Code Here
-
+function getName() {
+  prompt("What is your name?");
+}
 
 //////////////////PROBLEM 3////////////////////
 
@@ -73,9 +78,15 @@ function isTyler() {
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   //Code Here
+  function outerFn() {
+    return function() {
+      return "Dana";
+    }
+  }
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
-
+var innerFn = outerFn();
 //Now invoke innerFn.
+innerFn();
