@@ -19,7 +19,8 @@ function isTyler(name) {
 
   //Code Here
 function getName() {
-  prompt("What is your name?");
+  var theName = prompt("What is your name?");
+  return theName;
 }
 
 //////////////////PROBLEM 3////////////////////
@@ -31,7 +32,7 @@ function getName() {
 
   //Code Here
 function welcome() {
-  
+
 }
 
 //////////////////PROBLEM 4////////////////////
