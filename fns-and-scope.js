@@ -30,7 +30,9 @@ function getName() {
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-
+function welcome() {
+  
+}
 
 //////////////////PROBLEM 4////////////////////
 
@@ -40,6 +42,9 @@ function getName() {
 //What is the difference between arguments and parameters?
 
   //Answer Here
+  /*Parameter is the variable in the function definition.
+  Arguments are the actual values that a user passes in.
+  */
 
 
 //////////////////PROBLEM 5////////////////////
@@ -48,8 +53,9 @@ function getName() {
 
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
-
   //Answer Here
+  /*0, empty string, null, undefined, false, NaN. Check by using if statement
+  */
 
 
 
